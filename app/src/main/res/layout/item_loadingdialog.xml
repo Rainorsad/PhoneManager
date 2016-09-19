@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_height="113dp"
+        android:layout_width="200dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/dialogback"
+        >
+        <ImageView
+            android:id="@+id/item_loadingdialog_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>

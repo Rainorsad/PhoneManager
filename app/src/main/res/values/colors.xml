@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#fff9fc</color>
+    <color name="whiteclear">#ffffff</color>
+    <color name="gray">#dbd6d2</color>
+    <color name="helpimageback">#808080</color>
+    <color name="green">#75cf4e</color>
+    <color name="black">#000000</color>
+    <color name="red">#e73a3a</color>
+    <color name="blue">#87daff</color>
+    <color name="back_fromqq">#c0d0e0</color>
+    <color name="camera">#87daff</color>
+    <color name="cpu">#ecc05b</color>
+    <color name="root">#e47d95</color>
+    <color name="space">#82e480</color>
+    <color name="version">#e480be</color>
+    <color name="low">#ec4a4a</color>
+    <color name="mi">#3fec6b</color>
+    <color name="jianshu">#fff9fc</color>
+    <color name="origen">#dfab56</color>
+    <color name="jianshutextcolor">#c7254e</color>
+    <color name="webforms">#c4cbd1</color>
+    <color name="webnaviga">#ddd8d4</color>
+    <color name="webart">#d2c0a4</color>
+    <color name="webheader">#b7d5b1</color>
+    <color name="webfoot">#b3d5d4</color>
+</resources>

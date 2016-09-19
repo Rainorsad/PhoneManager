@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteclear">
+    <include layout="@layout/head_layout" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:background="@color/blue"
+        >
+        <TextView
+            android:id="@+id/phoneclean_showall"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:text="0MB"
+            android:textSize="35sp"
+            />
+        <TextView
+            android:id="@+id/phoneclean_file"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:layout_toLeftOf="@id/phoneclean_showall"
+            android:layout_alignBottom="@+id/phoneclean_showall"
+            android:text="已发现"
+            android:layout_marginBottom="7dp"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_height="0.25dp"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        />
+    <include
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        layout="@layout/recycleview"
+        />
+
+    <Button
+        android:id="@+id/phoneclean_bt"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="一键删除"
+        android:background="@drawable/button_style"
+        />
+</LinearLayout>

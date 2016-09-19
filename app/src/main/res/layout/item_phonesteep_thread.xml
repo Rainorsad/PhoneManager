@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/item_phsteep_thread_imcheck"
+        android:layout_height="35dp"
+        android:layout_margin="5dp"
+        android:layout_width="35dp"
+        android:scaleType="center"
+        />
+    <ImageView
+        android:layout_margin="5dp"
+        android:id="@+id/item_phsteep_thread_imname"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:scaleType="center"
+        />
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:layout_height="40dp"
+        android:layout_width="0dp">
+        <TextView
+            android:id="@+id/item_phsteep_tvname"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="left"
+            android:layout_alignParentTop="true"
+            />
+        <TextView
+            android:id="@+id/item_phsteep_tvsql"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="left"
+            android:layout_alignParentBottom="true"
+            />
+        </RelativeLayout>
+</LinearLayout>

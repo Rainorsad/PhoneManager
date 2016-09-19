@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toggle="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/webnaviga"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+        <include layout="@layout/head_layout" />
+
+        <LinearLayout
+            android:id="@+id/activity_set_main_lin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:scaleX="0"
+                android:scaleY="0"
+                android:id="@+id/setting_linstart"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_horizontal"
+                    android:text="开机启动"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.zcw.togglebutton.ToggleButton
+                    android:id="@+id/tog_startphone"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    toggle:tbBorderWidth="2dp"
+                    toggle:tbOffBorderColor="@color/green"
+                    toggle:tbOffColor="@color/green"
+                    toggle:tbOnColor="@color/cpu"
+                    toggle:tbSpotColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:scaleX="0"
+                android:scaleY="0"
+                android:id="@+id/setting_tell"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_horizontal"
+                    android:text="通知图标"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.zcw.togglebutton.ToggleButton
+                    android:id="@+id/tog_tell"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    toggle:tbBorderWidth="2dp"
+                    toggle:tbOffBorderColor="@color/green"
+                    toggle:tbOffColor="@color/green"
+                    toggle:tbOnColor="@color/cpu"
+                    toggle:tbSpotColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:scaleX="0"
+                android:scaleY="0"
+                android:id="@+id/setting_lininfo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_horizontal"
+                    android:text="消息推送"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <com.zcw.togglebutton.ToggleButton
+                    android:id="@+id/tog_infopush"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    toggle:tbBorderWidth="2dp"
+                    toggle:tbOffBorderColor="@color/green"
+                    toggle:tbOffColor="@color/green"
+                    toggle:tbOnColor="@color/cpu"
+                    toggle:tbSpotColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:scaleX="0"
+                android:scaleY="0"
+                android:id="@+id/setting_linhelp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_horizontal"
+                    android:text="帮助说明"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/setting_img_help"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="center"
+                    android:src="@mipmap/back_002" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:scaleX="0"
+                android:scaleY="0"
+                android:id="@+id/setting_linopinion"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_horizontal"
+                    android:text="意见反馈"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/setting_img_advice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="center"
+                    android:src="@mipmap/back_002" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:scaleX="0"
+                android:scaleY="0"
+                android:id="@+id/setting_linfriend"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_horizontal"
+                    android:text="好友分享"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/setting_img_friendshare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="center"
+                    android:src="@mipmap/back_002" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:scaleX="0"
+                android:scaleY="0"
+                android:id="@+id/setting_linversion"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_horizontal"
+                    android:text="版本更新"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/setting_img_versionagain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="center"
+                    android:src="@mipmap/back_002" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:scaleX="0"
+                android:scaleY="0"
+                android:id="@+id/setting_linaboutus"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_horizontal"
+                    android:text="关于我们"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/setting_img_aboutus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="center"
+                    android:src="@mipmap/back_002" />
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

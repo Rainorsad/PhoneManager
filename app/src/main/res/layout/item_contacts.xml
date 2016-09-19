@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/item_contacts_imgphone"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_width="0dp">
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/item_contacts_tvname"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="left"
+                android:layout_alignParentTop="true"
+                />
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/item_contacts_tvphone"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="left"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/item_contacts_imgset"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+</LinearLayout>
