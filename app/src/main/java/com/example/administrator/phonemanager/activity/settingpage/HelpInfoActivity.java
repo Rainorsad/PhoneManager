@@ -77,6 +77,7 @@ public class HelpInfoActivity extends BaseActivity{
         for (int i=0;i<mInageId.length;i++){
             View point = new View(this);
             point.setBackgroundResource(R.drawable.shape_point_gray);
+
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(30,30);
             if (i>0){
                 params.leftMargin = 20; //设值圆点间间隔
